@@ -1,0 +1,11 @@
+package InternBonusCalculation;
+
+public class JavaIntern extends Intern implements DussheraBonus{
+
+	@Override
+	void addBonus() {
+		super.getSalary()+super.diwaliBonus;
+	}
+	
+	
+}

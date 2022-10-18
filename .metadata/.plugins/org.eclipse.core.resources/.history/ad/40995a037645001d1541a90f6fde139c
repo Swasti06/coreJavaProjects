@@ -1,0 +1,5 @@
+package InternBonusCalculation;
+
+public class PythonIntern extends Intern implements DiwaliBonus{
+
+}

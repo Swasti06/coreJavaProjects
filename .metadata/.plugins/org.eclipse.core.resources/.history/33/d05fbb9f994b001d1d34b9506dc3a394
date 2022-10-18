@@ -1,0 +1,5 @@
+package com.assessment.four;
+
+abstract class Criminal {
+	abstract void ifCriminal();
+}

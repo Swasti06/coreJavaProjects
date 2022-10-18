@@ -1,0 +1,6 @@
+package InternBonusCalculation;
+
+public class JavaIntern extends Intern implements DussheraBonus{
+	
+	
+}

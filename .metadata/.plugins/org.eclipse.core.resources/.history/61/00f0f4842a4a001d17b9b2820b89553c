@@ -1,0 +1,5 @@
+package com.interfaceJAVA8;
+
+public interface Student {
+
+}

@@ -1,0 +1,17 @@
+package com.practice.five;
+import java.util.*;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		List<Integer> list=new ArrayList<>();
+		list.add(12);
+		list.add(45);
+		list.add(89);
+		System.out.println(list);
+		
+		Set<Integer> set=new HashSet<>(list);
+		System.out.println(set);
+	}
+
+}

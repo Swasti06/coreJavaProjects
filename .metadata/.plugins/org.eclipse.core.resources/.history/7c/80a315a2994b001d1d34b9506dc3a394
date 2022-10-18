@@ -1,0 +1,8 @@
+package com.assessment.four;
+
+import java.util.ArrayList;
+
+public class Criminal {
+	ArrayList<String> listOfCriminals=new ArrayList<>();
+	
+}

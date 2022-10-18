@@ -1,0 +1,8 @@
+package com.assessment.four.latest;
+
+public class Nationality {
+	Nationality(String message){
+		super(message);
+	}
+
+}

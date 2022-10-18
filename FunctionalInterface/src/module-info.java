@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Swasti
+ *
+ */
+module FunctionalInterface {
+}

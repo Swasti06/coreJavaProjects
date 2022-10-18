@@ -1,0 +1,5 @@
+package InternBonusCalculation;
+
+public class SQLIntern extends Intern implements DussheraBonus{
+
+}

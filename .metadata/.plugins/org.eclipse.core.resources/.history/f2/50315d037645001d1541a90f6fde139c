@@ -1,0 +1,5 @@
+package InternBonusCalculation;
+
+public class SAPIntern extends Intern implements DussheraBonus{
+
+}

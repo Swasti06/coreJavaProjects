@@ -1,0 +1,7 @@
+package InternBonusCalculation;
+
+public class JavaIntern extends Intern implements DussheraBonus{
+	Intern i=new Intern();
+	i.setDetails(11,"JAVA",100);
+	
+}

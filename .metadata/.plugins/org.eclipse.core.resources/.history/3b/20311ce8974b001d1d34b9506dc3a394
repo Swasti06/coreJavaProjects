@@ -1,0 +1,14 @@
+package com.assessment.four.latest;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class PassportApplicantTest {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

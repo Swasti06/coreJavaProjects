@@ -1,0 +1,13 @@
+package InternBonusCalculation;
+
+public class Test {
+
+	public static void main(String[] args) {
+		JavaIntern i= new JavaIntern();
+		i.setDetails(11, "Swasti", 1000);
+		i.addBonus();
+		System.out.println(i);
+
+	}
+
+}

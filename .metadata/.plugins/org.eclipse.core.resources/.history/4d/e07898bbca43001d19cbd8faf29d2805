@@ -1,0 +1,19 @@
+package loaderDemo;
+
+public class employee {
+	int id;
+	String name;
+	int sal;
+	void print() {
+		System.out.print(id+" ");
+		System.out.print(name+" ");
+		System.out.println(sal);
+	}
+	employee(int id, String name, int salary){
+		id=id;
+		name=name;
+		sal=salary;
+		print();
+	}
+	
+}

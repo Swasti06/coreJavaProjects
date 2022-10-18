@@ -1,0 +1,85 @@
+package com.assessment.four.latest;
+
+import java.util.ArrayList;
+
+public class PassportApplicant{
+	private String name;
+	private int age;
+	private String nationality;
+	private String criminalRecord;
+	
+
+	
+//	@Override
+//	void ifCriminal() {
+//		ArrayList<String> listOfCriminals=new ArrayList<>();
+//		listOfCriminals.add("Bob");
+//		listOfCriminals.add("Jack");
+//		for(int i=0; i<listOfCriminals.size(); i++) {
+//			if((listOfCriminals.get(i)).equals(this.getName())) {
+//				this.setCriminalRecord("not clear");
+//			}		
+//			else {
+//				this.setCriminalRecord("clear");
+//			};
+//		}
+//	}
+
+	
+	public String getCriminalRecord() {
+		return criminalRecord;
+	}
+
+
+	public void setCriminalRecord(String criminalRecord) {
+		this.criminalRecord = criminalRecord;
+	}
+
+
+	public PassportApplicant(String name, int age, String nationality) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.nationality = nationality;
+	}
+
+	public PassportApplicant() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public String getNationality() {
+		return nationality;
+	}
+
+	public void setNationality(String nationality) {
+		this.nationality = nationality;
+	}
+	
+	
+
+	@Override
+	public String toString() {
+		return "PassportApplicant [name=" + name + ", age=" + age + ", nationality=" + nationality + "]";
+	}
+	
+	
+    
+	
+
+}

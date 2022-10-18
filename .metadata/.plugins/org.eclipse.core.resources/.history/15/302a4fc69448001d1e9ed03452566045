@@ -1,0 +1,12 @@
+package com.setsDemo;
+import java.util.*;
+import java.util.Set;
+
+public class HashSetDemo {
+	public static void main(String[] args) {
+		Set<String> hset= new HashSet<>();
+		hset.add(null);
+		System.out.println(hset);
+	}
+
+}

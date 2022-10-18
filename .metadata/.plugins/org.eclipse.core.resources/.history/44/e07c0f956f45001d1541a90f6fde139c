@@ -1,0 +1,8 @@
+package InternBonusCalculation;
+
+public interface DussheraBonus extends Bonus{
+	static int dussheraBonus=5000;
+	
+	
+	
+}

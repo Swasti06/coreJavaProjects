@@ -1,0 +1,6 @@
+package InternBonusCalculation;
+
+public interface DiwaliBonus extends Bonus{
+	static int diwaliBonus=10000;
+
+}

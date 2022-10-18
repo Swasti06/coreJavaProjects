@@ -1,0 +1,16 @@
+package InternBonusCalc;
+
+public class JavaIntern extends Intern implements DussheraBonus{
+
+	@Override
+	public String toString() {
+		return "JavaIntern [getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
+				+ super.toString() + "]";
+	}
+	
+	@Override
+	void addBonus() {
+		int newSal= super.getSal+dussheraBonus;
+		super.setInternSal(newSal);
+	}
+}

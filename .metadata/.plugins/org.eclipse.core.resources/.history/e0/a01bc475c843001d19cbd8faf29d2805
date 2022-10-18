@@ -1,0 +1,14 @@
+package loaderDemo;
+
+public class Test {
+
+	public static void main(String[] args) {
+		employee e1=new employee(1,"abc",1000);
+		employee e2=new employee(2,"def",2000);
+		employee e1=new employee(3,"ghi",3000);
+		employee e1=new employee(4,"jkl",4000);
+		employee e1=new employee(5,"mno",5000);
+
+	}
+
+}

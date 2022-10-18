@@ -1,0 +1,54 @@
+package com.Practice;
+import java.util.*;
+import java.util.stream.Collectors;
+
+public class TestClass {
+
+	public static void main(String[] args) {
+		Player p1=new Player("Swasti", 100);
+		Player p2=new Player("Manya", 600);
+		Player p3=new Player("Shreshth", 900);
+		Player p4=new Player("Srishti", 200);
+		Player p5=new Player("Aakriti", 500);
+		
+		Set<Player> pSet1= new TreeSet<>();
+		pSet1.add(p1);
+		pSet1.add(p2);
+		pSet1.add(p3);
+		pSet1.add(p4);
+		pSet1.add(p5);		
+		
+		System.out.println(pSet1);
+
+		Player player= pSet1.stream().max((x, y) -> (x.getScore() - y.getScore())).get();
+		System.out.println(player);
+//		Set<Player> pSet2= new TreeSet<>((x,y)-> (y.getScore()-x.getScore()));
+//		pSet2.add(p1);
+//		pSet2.add(p2);
+//		pSet2.add(p3);
+//		pSet2.add(p4);
+//		pSet2.add(p5);
+//		
+//		
+//		System.out.println(pSet2);
+		
+		// sort objects by score in set
+//		Set<Player> pSet=new HashSet<>();
+//		pSet.add(p1);
+//		pSet.add(p2);
+//		pSet.add(p3);
+//		pSet.add(p4);
+//		pSet.add(p5);
+		
+			
+//		pSet.stream().sorted((x,y)->(y.getScore()-x.getScore())).forEach(e->System.out.println(e.getScore()));
+//	
+//		List<Player> asortPlayer = pSet.stream().sorted((x,y)->(x.getScore()-y.getScore())).collect(Collectors.toList());
+//		System.out.println(asortPlayer);
+		
+		
+		
+
+	}
+
+}

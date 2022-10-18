@@ -1,0 +1,62 @@
+package com.assessment.four;
+
+import java.util.*;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		ArrayList<String> listOfCriminals= new ArrayList<>();
+		listOfCriminals.add("Bob");
+		listOfCriminals.add("Jack");
+		
+		
+		
+		Log logger = LogFactory.getLog(MainClass.class);
+
+		PassportApplicant pa1 = new PassportApplicant("Bob", 25, "Indian");
+		PassportApplicant pa2 = new PassportApplicant("Jack", 30, "Indian");
+		PassportApplicant pa3 = new PassportApplicant("Swasti", 22, "Indian");
+		PassportApplicant pa4 = new PassportApplicant("Manya", 23, "not Indian");
+		
+		
+		public void isCriminal() {
+			for(int i=0; i<listOfCriminals.size(); i++) {
+				forEach(a:PassportApplicant){
+					if (listOfCriminals.get(i)).equals(a.getName()){
+						a.setCriminalRecord("not clear");
+					}
+					else {
+						a.setCriminalRecord("clear");
+					}
+				}			
+				
+			}
+		}
+		
+		try {
+			pa1.passportEligibility();
+		} catch (Exception e) {
+			logger.error("Error occurred while applying Passport for " + pa1.getName());
+		}
+		try {
+			pa2.passportEligibility();
+		} catch (Exception e) {
+			logger.error("Error occurred while applying Passport for " + pa2.getName());
+		}
+		try {
+			pa3.passportEligibility();
+		} catch (Exception e) {
+			logger.error("Error occurred while applying Passport for " + pa3.getName());
+		}
+		try {
+			pa4.passportEligibility();
+		} catch (Exception e) {
+			logger.error("Error occurred while applying Passport for " + pa4.getName());
+		}
+
+	}
+
+}

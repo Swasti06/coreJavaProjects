@@ -1,0 +1,29 @@
+package com.Practice;
+import java.util.*;
+import java.util.stream.Collectors;
+
+public class TestClass {
+
+	public static void main(String[] args) {
+		Player p1=new Player("Swasti", 100);
+		Player p2=new Player("Manya", 600);
+		Player p3=new Player("Shreshth", 900);
+		Player p4=new Player("Srishti", 200);
+		Player p5=new Player("Aakriti", 500);
+
+
+		Set<Player> pSet=new HashSet<Player>();
+		pSet.add(p1);
+		pSet.add(p2);
+		pSet.add(p3);
+		pSet.add(p4);
+		pSet.add(p5);
+		
+			
+		Set<Player> sortPlayer= pSet.stream().sorted((x,y)->(y.getScore()-x.getScore())).collect(Collectors.toSet());
+		System.out.println(sortPlayer);
+		
+
+	}
+
+}

@@ -1,0 +1,26 @@
+package com.assessment.four.latest;
+
+import java.util.*;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		Log logger=LogFactory.getLog(MainClass.class);
+
+		
+		
+		PassportApplicant pa1=new PassportApplicant("Bob", 25, "Indian");
+		PassportApplicant pa2=new PassportApplicant("Jack", 30, "Indian");
+		PassportApplicant pa3=new PassportApplicant("Swasti", 22, "Indian");
+		PassportApplicant pa4=new PassportApplicant("Manya", 23, "not Indian");
+		
+		
+	}
+
+	
+}

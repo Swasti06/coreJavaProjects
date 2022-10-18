@@ -1,0 +1,5 @@
+package com.assessment.four.latest;
+
+abstract class Criminal {
+	abstract boolean ifCriminal();
+}

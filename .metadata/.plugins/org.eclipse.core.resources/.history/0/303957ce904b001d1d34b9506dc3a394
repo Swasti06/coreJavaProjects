@@ -1,0 +1,7 @@
+package com.assessment.four;
+
+public class CriminalRecord extends Exception{
+	CriminalRecord(String message){
+		super(message);
+	}
+}

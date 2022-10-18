@@ -1,0 +1,13 @@
+package loaderDemo;
+
+public class employee {
+	int id;
+	String name;
+	int salary;
+	employee(int id, String name, int salary){
+		System.out.print(id+" ");
+		System.out.print(name+" ");
+		System.out.println(salary);
+
+	}
+}

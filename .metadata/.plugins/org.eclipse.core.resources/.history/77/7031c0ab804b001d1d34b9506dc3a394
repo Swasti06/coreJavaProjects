@@ -1,0 +1,70 @@
+package com.assessment.four;
+
+public class Applicant {
+	private String name;
+	private int age;
+	private String nationality;
+	private String criminalRecord;
+	
+	
+	public Applicant(String name, int age, String nationality, String criminalRecord) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.nationality = nationality;
+		this.criminalRecord = criminalRecord;
+	}
+	
+	
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public int getAge() {
+		return age;
+	}
+
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+
+	public String getNationality() {
+		return nationality;
+	}
+
+
+	public void setNationality(String nationality) {
+		this.nationality = nationality;
+	}
+
+
+	public String getCriminalRecord() {
+		return criminalRecord;
+	}
+
+
+	public void setCriminalRecord(String criminalRecord) {
+		this.criminalRecord = criminalRecord;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Applicant [name=" + name + ", age=" + age + ", nationality=" + nationality + ", criminalRecord="
+				+ criminalRecord + "]";
+	}
+
+
+	
+	
+	
+
+}

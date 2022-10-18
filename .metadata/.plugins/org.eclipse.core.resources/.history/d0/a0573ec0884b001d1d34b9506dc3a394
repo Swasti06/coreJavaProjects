@@ -1,0 +1,31 @@
+package com.assessment.four;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+public class PassportApplicationTest {
+	
+	@Test
+	void passportAgeTest() {
+		PassportApplicant a=new PassportApplicant("Swasti", 14, "Indian", "clear");
+		assertThrows(InvalidAge.class,()->a.passportEligibility());
+	}
+	@Test
+	void passportNationalityTest() {
+		PassportApplicant a=new PassportApplicant("Swasti", 19, "not Indian", "clear");
+		assertThrows(Nationality.class,()->a.passportEligibility());
+	}
+	@Test
+	void passportCriminalRecordTest() {
+		PassportApplicant a=new PassportApplicant("Swasti", 14, "Indian", "not clear");
+		assertThrows(CriminalRecord.class,()->a.passportEligibility());
+	}
+	@Test
+	void passportEligibleTest() throws InvalidAge, Nationality, CriminalRecord {
+		PassportApplicant a=new PassportApplicant("Swasti",18,"Indian","clear");
+		boolean actual=a.checkApplicantforPassport();
+		assertTrue(actual);
+	}
+
+}

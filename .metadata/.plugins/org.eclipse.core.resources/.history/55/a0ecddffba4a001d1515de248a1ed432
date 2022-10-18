@@ -1,0 +1,11 @@
+package com.logging.practice;
+
+public class MainClass {
+
+	public static void main(String[] args) throws InvalidAge, MedicalVerification, PoliceVerification {
+		Applicant a1=new Applicant("Swasti", 14, "fit", "clear");
+		a1.checkApplicantforDL();
+		
+	}
+
+}

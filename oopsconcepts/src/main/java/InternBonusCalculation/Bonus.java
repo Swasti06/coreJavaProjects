@@ -1,0 +1,6 @@
+package InternBonusCalculation;
+
+public interface Bonus {
+	
+	
+}

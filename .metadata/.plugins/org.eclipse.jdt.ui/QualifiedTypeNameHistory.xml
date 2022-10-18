@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="com.comparitor.Student"/>
+    <fullyQualifiedTypeName name="com.comparitor.MarksComparator"/>
+    <fullyQualifiedTypeName name="com.comparitor.NameComaparator"/>
+    <fullyQualifiedTypeName name="com.Lambda.Employee"/>
+    <fullyQualifiedTypeName name="com.Stream.Demo.InvalidException"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="org.apache.commons.configuration2.PropertiesConfiguration"/>
+    <fullyQualifiedTypeName name="org.apache.commons.configuration2.builder.fluent.Configurations"/>
+    <fullyQualifiedTypeName name="org.apache.commons.configuration2.ex.ConfigurationException"/>
+    <fullyQualifiedTypeName name="java.util.TreeMap"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
+    <fullyQualifiedTypeName name="com.assessment.four.PassportApplicant"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.apache.commons.logging.LogFactory"/>
+    <fullyQualifiedTypeName name="org.apache.commons.logging.Log"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+</qualifiedTypeNameHistroy>

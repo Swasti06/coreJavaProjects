@@ -1,0 +1,10 @@
+package InternBonusCalculation;
+
+public class Test {
+
+	public static void main(String[] args) {
+		JavaIntern i= new JavaIntern();
+		i.setDetails(11, "JAVA", 1000);
+	}
+
+}

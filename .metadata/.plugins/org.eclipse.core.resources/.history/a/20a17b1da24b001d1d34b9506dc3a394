@@ -1,0 +1,22 @@
+package com.assessment.four;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+
+public class PassportDatabase {
+	
+	
+	public void savedData(String name,int age) {
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			Connection connection= DriverManager.getConnection("jdbc:mysql://localhost:3306/telus","root","Swasti");
+			String sql="insert into ApplicantDetails(name,age,nationality) values(?,?,?)";
+			PreparedStatement preparedStatement= connection.prepareStatement(sql);
+			preparedStatement.setString(1, name);
+			preparedStatement.setString(2, age);
+			
+		}
+	}
+
+}

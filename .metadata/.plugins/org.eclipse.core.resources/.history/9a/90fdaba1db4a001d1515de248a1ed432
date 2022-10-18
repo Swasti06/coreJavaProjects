@@ -1,0 +1,15 @@
+package com.logging.practice;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ApplicantTest {
+
+	@Test
+	void dlEligibilityMedicallyUnfitTest() {
+		Applicant a1=new Applicant("Swasti", 19, "unfit", "clear");
+		assertThrows(MedicalVerification.class,()->a1.dlEligibility());
+	}
+
+}

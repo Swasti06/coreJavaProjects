@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;pSet1&apos; in &apos;com.Practice.TestClass.main(...)&apos; to &apos;pSet&apos;&#x0D;&#x0A;- Original project: &apos;FunctionalInterface&apos;&#x0D;&#x0A;- Original element: &apos;com.Practice.TestClass.main(String[]).pSet1&apos;&#x0D;&#x0A;- Renamed element: &apos;pSet1&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;pSet1&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.Practice{TestClass.java[TestClass~main~\[QString;@pSet1!363!432!375!379!QSet\&lt;QPlayer;&gt;;!0!false" name="pSet" references="true" stamp="1665487385133" version="1.0"/>
+</session>
